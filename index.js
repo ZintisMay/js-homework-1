@@ -19,9 +19,9 @@ var problem = function (n, title) {
 // ******************************************************
 problem(1, "getName");
 // Declare a variable to make the getName function work
-// Code Below *******************************************
+// Solution Below ***************************************
 
-// Code Above *******************************************
+// Solution Above ***************************************
 
 function getName() {
   return zintisName;
@@ -37,9 +37,9 @@ theseShouldBeTheSame(getName(), "Zintis");
 // ******************************************************
 problem(2, "getSecondsInYear");
 // Declare several variables to make the getSecondsInAYear function work
-// Code Below *******************************************
+// Solution Below ***************************************
 
-// Code Above *******************************************
+// Solution Above ***************************************
 
 function getSecondsInAYear() {
   return secondsInMinute * minutesInHour * hoursInDay * daysInYear;
@@ -55,9 +55,9 @@ theseShouldBeTheSame(getSecondsInAYear(), 31536000);
 // ******************************************************
 problem(3, "isLongLongWord");
 // Declare several variables to make the function CALLS below work
-// Code Below *******************************************
+// Solution Below ***************************************
 
-// Code Above *******************************************
+// Solution Above ***************************************
 
 function isLongLongWord(n) {
   if (n.length > 10) {
@@ -78,9 +78,9 @@ theseShouldBeTheSame(isLongLongWord(word2), false);
 // ******************************************************
 problem(4, "fruitArray");
 // Declare an array below
-// Code Below *******************************************
+// Solution Below ***************************************
 
-// Code Above *******************************************
+// Solution Above ***************************************
 
 theseShouldBeTheSame(
   fruitArray[0] + " " + fruitArray[1] + " " + fruitArray[2],
@@ -94,10 +94,10 @@ theseShouldBeTheSame(
 // PROBLEM 5 ********************************************
 // ******************************************************
 problem(5, "isVowel");
-// Add to this function so that it determines whether the word has a vowel in it
-// Code Below *******************************************
+// Add to this function so that it determines whether the word has a vowel in it (returning true or false)
+// Solution Below ***************************************
 function isVowel(letter) {}
-// Code Above *******************************************
+// Solution Above ***************************************
 
 theseShouldBeTheSame(isVowel("a"), true);
 theseShouldBeTheSame(isVowel("e"), true);
@@ -115,10 +115,10 @@ theseShouldBeTheSame(isVowel("y"), false);
 // PROBLEM 6 ********************************************
 // ******************************************************
 problem(6, "isEven");
-// Declare a variable to make the getName function work
-// Code Below *******************************************
+// Add to this function so that it determines whether the number param is even or not (returning true or false)
+// Solution Below ***************************************
 function isEven(num) {}
-// Code Above *******************************************
+// Solution Above ***************************************
 
 theseShouldBeTheSame(isEven(0), true);
 theseShouldBeTheSame(isEven(1), false);
@@ -135,11 +135,11 @@ theseShouldBeTheSame(isEven(1.6), false);
 // PROBLEM 7 ********************************************
 // ******************************************************
 problem(7);
-// Complete this function so it takes the x param and returns a string matching the one below
+// Complete this function so it takes the x param and returns a string matching the one below (returning the string)
 // You'll need to use a for loop, and string concatenation (google those!)
-// Code Below *******************************************
+// Solution Below ***************************************
 function listNumbersUpToX(x) {}
-// Code Above *******************************************
+// Solution Above ***************************************
 
 theseShouldBeTheSame(listNumbersUpTo(0), "0");
 theseShouldBeTheSame(listNumbersUpTo(3), "0123");
@@ -152,10 +152,10 @@ theseShouldBeTheSame(listNumbersUpTo(5), "012345");
 // PROBLEM 8 ********************************************
 // ******************************************************
 problem(8);
-// Use a variable and a for loop to add up all the numbers in the array, and return the sum
-// Code Below *******************************************
+// Use a variable and a for loop to add up all the numbers in the array, and return the sum (return the sum)
+// Solution Below ***************************************
 function sumArrayOfNumbers(array) {}
-// Code Above *******************************************
+// Solution Above ***************************************
 
 theseShouldBeTheSame(sumArrayOfNumbers([]), 0);
 theseShouldBeTheSame(sumArrayOfNumbers([1]), 1);
